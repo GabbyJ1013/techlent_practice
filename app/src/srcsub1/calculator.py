@@ -6,6 +6,10 @@ class Calculator():
 		
 	def add(self,a,b):
 		return a+b
+	
+	def subtract(self,a,b):
+		return a-b
+
 	def circlesquare(self, radius):
 		return self.table['pi']*radius**2
 
